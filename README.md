@@ -25,7 +25,7 @@ This is a simple Express server implemented using TypeScript and integrated with
 
 1. **Set up your Stripe account and obtain your API keys from the [Stripe Dashboard](https://dashboard.stripe.com/).**
 
-2. **Create a `.env` file in the root directory of the project and add your Stripe API keys:**
+2. **Create a `.env` file in the server directory of the project and add your Stripe API keys:**
    ```
    STRIPE_SECRET_KEY="YOUR_STRIPE_SECRET_KEY_HERE"
    STRIPE_PUBLIC_KEY="YOUR_STRIPE_PUBLIC_KEY_HERE"
@@ -35,7 +35,7 @@ This is a simple Express server implemented using TypeScript and integrated with
 
 1. **Start the server:**
    ```bash
-   npm start
+   npm run serve
    ```
 
 ## Endpoints
@@ -50,4 +50,4 @@ This is a simple Express server implemented using TypeScript and integrated with
 - [Stripe](https://stripe.com/): Payment processing platform for online businesses.
 - [dotenv](https://github.com/motdotla/dotenv): Loads environment variables from a `.env` file into `process.env`.
 - [typescript](https://www.typescriptlang.org/): Superset of JavaScript that compiles to clean JavaScript output.
-- [typescript](https://nodemon.io/): Utility that monitors for changes in your source code and automatically restarts your server during development.
+- [nodemon](https://nodemon.io/): Utility that monitors for changes in your source code and automatically restarts your server during development.
